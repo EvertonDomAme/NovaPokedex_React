@@ -15,7 +15,7 @@ export default function App() {
           <Route path="/" exact={true} component={CardList} />
           <Route path="/info/:id" component={Info} />
           <Route path="/about" component={About} />
-          <Route path='/type/:id' component={Type} />
+          <Route path='/type/:name' component={Type} />
         </Switch>
       </BrowserRouter>
     </div>
